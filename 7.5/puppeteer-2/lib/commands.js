@@ -42,13 +42,4 @@ module.exports = {
       throw new Error(`Selector clickSeat ${selector} is not clickable`);
     }
   },
-  clickSeatVip: async function (page, number) {
-    try {
-      let selector = `section  div:nth-child(${number}) > span.buying-scheme__chair.buying-scheme__chair_vip`;
-      await page.waitForSelector(selector);
-      await page.click(selector);
-    } catch (error) {
-      throw new Error(`Selector clickSeatVip ${selector} is not clickable`);
-    }
-  },
 };
