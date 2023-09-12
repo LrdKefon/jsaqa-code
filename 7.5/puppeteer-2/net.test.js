@@ -6,7 +6,6 @@ const {
   clickDay,
   clickMoviTime,
   clickSeat,
-  clickSeatVip,
 } = require("./lib/commands");
 
 const { generateData } = require("./lib/utils");
