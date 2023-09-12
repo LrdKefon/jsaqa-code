@@ -15,7 +15,6 @@ const {
   clickDay,
   clickMoviTime,
   clickSeat,
-  clickSeatVip,
 } = require("../../lib/commands.js");
 setDefaultTimeout(60000);
 
